@@ -3,8 +3,8 @@
 
 #include <iostream>
 #include <io.h>
-#include <fcntl.h>
-#include <string>
+#include <fcntl.h> //thu vien de them font chu tieng viet
+#include <string>  //thu vien de them font chu tieng viet
 using namespace std;
 
 int main()
@@ -13,13 +13,13 @@ int main()
     _setmode(_fileno(stdin), _O_U16TEXT);
     _setmode(_fileno(stdout), _O_U16TEXT);
     //1. Xuất dữ liệu ra màn hình
-    std::wcout << "Hello World!\n";
-    std::wcout << "Hello bo may la vua haha\n";
+    std::wcout << "Hello World!\n"; //\n de xuong dong
+    std::wcout << "Hello haha\n";
     wcout << "Vu Binh minh dep zai\n";
 
     //2. Nhập dữ liệu từ bàn phím
     double toan, van, anh, khtn, dtb;
-    wcout << L"mời nhập điểm toán: ";
+    wcout << L"mời nhập điểm toán: "; //Phai them "L" neu muon in font chu tieng viet
     //nhập
     wcin >> toan;   
 
