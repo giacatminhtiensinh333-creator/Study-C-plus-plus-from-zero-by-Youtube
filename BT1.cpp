@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <io.h>
-#include <fcntl.h>
+#include <fcntl.h> // thu vien them font tieng viet
 #include <string>
 using namespace std;
 
