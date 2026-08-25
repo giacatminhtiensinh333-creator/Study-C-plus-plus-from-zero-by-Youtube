@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	int i1 = 1;
+	int i1 = 1;   //pratice exercise about mathetics
 	int i2 = 5;
 	int i3 = -3;
 	double d1 = 2.0;
