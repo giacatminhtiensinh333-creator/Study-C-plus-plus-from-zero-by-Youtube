@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	const double PhiMoiKM = 0.025;
+	const double PhiMoiKM = 0.025; // pratice exercise
 	const double GiaXang = 23500;
 	double SoLitXangTieuThu, SoTienPhaiTra, SoKMDiChuyen;
 	cout << "Vui long nhap so ki lo met da di chuyen: ";
