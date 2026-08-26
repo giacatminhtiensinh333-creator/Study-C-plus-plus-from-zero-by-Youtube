@@ -7,7 +7,7 @@ int main()
 {
 	int x1 = 8;
 	x1 += 5; // x = x + 5
-	cout << "x= " << x1 << endl;
+	cout << "x= " << x1 << endl; // some way to code shorter
 
 	int x2 = 8;
 	x2 -= 5; // x2 = x2 - 5
@@ -30,7 +30,7 @@ int main()
 	cout << "Kiem tra x2 co khac x3 khong (1: dung, 0: sai) : " << (x2 != x3) << endl;
 	cout << "Kiem tra x3 co lon hon x4 khong (1: dung, 0: sai) : " << (x3 > x4) << endl;
 	cout << "Kiem tra x4 co nho hon x5 khong (1: dung, 0: sai) : " << (x4 < x5) << endl;
-	cout << "Kiem tra x5 co lon hon hoac bang x1 khong (1: dung, 0: sai) : " << (x5 >= x1) << endl;
+	cout << "Kiem tra x5 co lon hon hoac bang x1 khong (1: dung, 0: sai) : " << (x5 >= x1) << endl; // pratice
 	cout << "Kiem tra x1 co nho hon hoac bang x2 khong (1: dung, 0: sai) : " << (x1 <= x2) << endl;
 
 
@@ -45,7 +45,7 @@ int main()
 	ac *= 2;
 	ad %= 5;
 	ae -= (b + 7);
-	cout << " aa += 3 = " << aa << endl;
+	cout << " aa += 3 = " << aa << endl; //pratice whith some math
 	cout << " ab -= 5 = " << ab << endl;
 	cout << " ac *= 2 = " << ac << endl;
 	cout << " ad &= 5 = " << ad << endl;
