@@ -51,7 +51,8 @@ int main()
 	cout << " ad &= 5 = " << ad << endl;
 	cout << "ae = ae - (b + 7) = " << "ae -= (b + 7) ";
 
-
+git config --global user.email "giacatminhtiensinh333@gmail.com
+	"
 }
 
 
