@@ -5,6 +5,7 @@
 using namespace std;
 
 int main()
+// learning some variable types
 {
 	int i1 = 1;   //pratice exercise about mathetics
 	int i2 = 5;
