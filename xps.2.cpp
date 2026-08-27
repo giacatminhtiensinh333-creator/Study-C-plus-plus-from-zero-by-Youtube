@@ -3,13 +3,13 @@
 
 #include <iostream>
 #include <io.h>
-#include <fcntl.h> // thu vien them font tieng viet
+#include <fcntl.h> // library to add vietnamese font
 #include <string>
 using namespace std;
 
 int main()
 {
-    _setmode(_fileno(stdout), _O_U16TEXT);
+    _setmode(_fileno(stdout), _O_U16TEXT); // setmode to use vietnamese font
         _setmode(_fileno(stdin), _O_U16TEXT);
         wstring Tên, GiớiTính;
         int NămSinh,Tuổi;
