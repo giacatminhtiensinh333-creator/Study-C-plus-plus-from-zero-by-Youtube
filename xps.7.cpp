@@ -4,6 +4,7 @@
 using namespace std;
 
 int main()
+//logical operator
 {
 	int x1 = 8;
 	x1 += 5; // x = x + 5
@@ -50,9 +51,6 @@ int main()
 	cout << " ac *= 2 = " << ac << endl;
 	cout << " ad &= 5 = " << ad << endl;
 	cout << "ae = ae - (b + 7) = " << "ae -= (b + 7) ";
-
-git config --global user.email "giacatminhtiensinh333@gmail.com
-	"
 }
 
 
