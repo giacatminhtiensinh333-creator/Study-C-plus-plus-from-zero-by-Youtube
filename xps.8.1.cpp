@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
+	// caculate circumference and acreage of circle
 	double r;
 	double cv;
 	double dt;
@@ -17,6 +18,7 @@ int main()
 	dt = r * r * M_PI;
 	cout << "Chu vi hinh tron la: " << cv << endl << "Dien tich hinh tron la: " << dt << endl;
 
+	// caculate circumference and acreage of rectangle
 	double a, b, CV, DT;
 	cout << "Moi nhap vao chieu dai: ";
 	cin >> a;
@@ -26,6 +28,7 @@ int main()
 	DT = a * b;
 	cout << "Chu vi HCN la: " << CV << endl << "Dien tich HCn la: " << DT << endl;
 
+	// calculate average score but only print 1 number after comma
 	double dtt, dv, da, dtb;
 	cout << "Moi nhap vao diem toan: ";
 	cin >> dtt;
