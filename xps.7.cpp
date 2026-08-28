@@ -26,7 +26,7 @@ int main()
 	x5 %= 5; // x5 = x5 % 5
 	cout << "x5= " << x5 << endl;
 
-	// cac phep so sanh
+	// cac phep so sanh (comparison operation)
 	cout << "Kiem tra x1 co bang x2 khong (1: dung, 0: sai) : " << (x1 == x2) << endl;
 	cout << "Kiem tra x2 co khac x3 khong (1: dung, 0: sai) : " << (x2 != x3) << endl;
 	cout << "Kiem tra x3 co lon hon x4 khong (1: dung, 0: sai) : " << (x3 > x4) << endl;
