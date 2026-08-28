@@ -1,9 +1,9 @@
 ﻿
 
-#define _USE_MATH_DEFINES
-#include <cmath>
+#define _USE_MATH_DEFINES 
+#include <cmath> // some define and library to solve some math
 #include <iostream>
-#include <iomanip>
+#include <iomanip> // this library have setprecision
 using namespace std;
 
 int main()
@@ -13,7 +13,7 @@ int main()
 	double dt;
 	cout << "Moi nhap vao ban kinh: ";
 	cin >> r;
-	cv = 2 * r * M_PI;
+	cv = 2 * r * M_PI; // this is π = 3.14...
 	dt = r * r * M_PI;
 	cout << "Chu vi hinh tron la: " << cv << endl << "Dien tich hinh tron la: " << dt << endl;
 
@@ -34,7 +34,8 @@ int main()
 	cout << "Moi nhap vao diem anh: ";
 	cin >> da;
 	dtb = (dtt + dv + da) / 3;
-	cout << "Diem trung binh cua ban la: " << setprecision(2) << dtb << endl;
+	cout << "Diem trung binh cua ban la: " << setprecision(2) // I use it to print only 1 number after comma
+		 << dtb << endl;
 
 }
 
