@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+	// big practice after a week
 	// Bai 1
 	double N;
 	double K;
