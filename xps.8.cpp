@@ -5,6 +5,7 @@ int main()
 {
 	// big practice after a week
 	// Bai 1
+	// Calculate per-person contribution
 	double N;
 	double K;
 	cout << "Moi nhap vao so nguoi trong nhom: ";
@@ -15,6 +16,7 @@ int main()
 	cout << "So tien TB moi nguoi quyen gop la: " << q << endl;
 
 	// Bai 2
+	// Convert seconds to H:M:S
 	int S;
 	int s;
 	int h;
@@ -29,6 +31,7 @@ int main()
 	cout << "So giay tuong ung la: " << h << " Gio " << p << " Phut " << s << " Giay " << endl;
 
 	// Bai 3
+	// Convert Celsius to Fahrenheit and Kelvin
 	double C;
 	double F;
 	cout << "VUi long nhap vao nhiet do: ";
@@ -38,6 +41,7 @@ int main()
 	cout << "Nhiet do cua ban tuong ung: " << F << " Do F , " << K << " Do K " << endl;
 
 	// Bai 4
+	// Check grade criteria
 	double dt, dv, da;
 	cout << "Vui long nhap vao diem toan: ";
 	cin >> dt;
@@ -51,6 +55,7 @@ int main()
 	cout << "Hoc sinh co dat tieu chi 3 khong: " << bool(((dt + dv + da) / 3) >= 8) << endl;
 
 	//bai 6
+	// Evaluate an expression with a, b, and c
 	double a,b, c;
 	cout << "Moi nhap vao gia tri cua a: ";
 	cin >> a;
@@ -62,6 +67,7 @@ int main()
 	cout << "Gia tri cua P la: " << p << endl;
 
 	// Bai 5
+	// Character and ASCII manipulation
 	char l;
 	cout << "Moi nhap vao 1 ky tu: ";
 	cin >> l;
