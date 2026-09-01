@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
+//while loop lesson
 int main()
 {
  
