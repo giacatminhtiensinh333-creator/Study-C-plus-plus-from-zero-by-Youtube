@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
+// switch-case lesson
 int main()
 {
     int n;
@@ -16,6 +17,9 @@ int main()
 		cout << "so le" << endl;
 		break;
 	}
+ 	// practice
+
+	// Determine the number of days in a month
 	int thang, nam;
 	cout << "Moi nhap vao thang: ";
 	cin >> thang;
@@ -45,6 +49,8 @@ int main()
 		cout << "Mot nam chi co 12 thang, vui long nhap lai. " << endl;
 		break;
 	}
+
+	// practice ternary operator
 	int phim;
 	cout << "Moi nhap vao phim theo huong dan duoi day.\n 1. Tim theo ten\n 2. Tim theo tac gia\n 3. Tim theo nha xuat ban\n 4. Tim theo tieu de\n Vui long nhap phim:";
 	cin >> phim;
