@@ -1,6 +1,8 @@
 ﻿#include <iostream>
 using namespace std;
 int main()
+
+// Ternary operator leson
 {
 	int n;
 	cout << "Moi nhap vao n: ";
