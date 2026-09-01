@@ -4,3 +4,5 @@ I create this repository to record my journey of learning C++.
 I start on August 23, 2026.
 
 Some exercises may be uploaded retrospectively.
+
+Some exercises were completed retrospectively after short breaks.
