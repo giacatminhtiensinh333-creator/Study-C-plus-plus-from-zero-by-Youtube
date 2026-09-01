@@ -51,6 +51,7 @@ int main()
 	}
 
 	// practice ternary operator
+	// peform actions based on the user's choice (1-4)
 	int phim;
 	cout << "Moi nhap vao phim theo huong dan duoi day.\n 1. Tim theo ten\n 2. Tim theo tac gia\n 3. Tim theo nha xuat ban\n 4. Tim theo tieu de\n Vui long nhap phim:";
 	cin >> phim;
