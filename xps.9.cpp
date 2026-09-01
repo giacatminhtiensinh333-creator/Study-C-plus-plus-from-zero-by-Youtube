@@ -2,9 +2,10 @@
 #include <cmath>
 using namespace std;
 
-
+// if else lesson + comprehensive practicing
 int main()
 {
+    //applied exercises (if - else if - else)
     double dt, dv, da, dc, dtong;
     cout << "Moi nhap vao diem toan: ";
     cin >> dt;
@@ -35,6 +36,9 @@ int main()
         cout << "Ban Vu Binh Minh do chuyen muon gui loi den ban rang: 'Ban khong hoc thi phai CHIU!'" << endl;
     }
 
+// practice
+
+// Calculate the sum and difference of user input values
     double x, y, tong, hieu;
     cout << "Moi nhap vao tong: ";
     cin >> tong;
@@ -45,6 +49,7 @@ int main()
     cout << "Gia tri cua x la: " << x <<  endl;
     cout << "Gia tri cua y la: " << y << endl;
 
+// Calculate BMI
     double cc, cn, BMI;
     cout << "Moi nhap vao can nang(kg): ";
     cin >> cn;
@@ -80,6 +85,8 @@ int main()
     {
         cout << "Than hinh qua beo \n";
     }
+
+// Check whether a year is a leap year
     int nam;
     cout << "Vui long nhap nam muon kiem tra: ";
     cin >> nam;
@@ -91,6 +98,8 @@ int main()
     {
         cout << "Nam nay la nam khong nhuan \n";
     }
+
+// Determine the number of days in a month
     int thang;
     cout << "Moi nhap vao thang muon kiem tra: ";
     cin >> thang;
@@ -120,6 +129,8 @@ int main()
     {
         cout << "Mot nam chi co 12 thang thoi. \n";
     }
+
+// Solve a quadratic equation using the discriminant
     double delta;
     double a, b, c, x1, x2;
     cout << "Ta co pt: ax^2 + bx + c =0 " << endl;
