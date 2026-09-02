@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
+// do while loop lesson
 int main()
 {
     int a = 1;
@@ -13,6 +14,8 @@ int main()
     } while (a <= 10);
     cout << "Giai thua cac chu so tu 1 den 10 la: " << giaithua << endl;
 
+    //practice
+    // number guess game
     int jackpot = 777;
     int number;
     cout << "CHAO MUNG DEN GAME DOAN SO MAY MAN \n" << "Vui long nhap so (1-999) cua ban: ";
@@ -34,6 +37,8 @@ int main()
             break;
         }
     }
+
+    // Atm system simulator
     long long Sodu = 5213000000;
     long long ruttien;
     int matkhau;
@@ -66,6 +71,7 @@ int main()
     } while (x!=3);
     cout << "Da dang xuat!\n";
 
+    // convert that number into a number with its digits reversed (example: 1234 to 4321)
     int n;
     int chusocuoi;
     int sodao = 0;
