@@ -1,14 +1,17 @@
 ﻿#include <iostream>
 using namespace std;
 
+//for loop lesson
 int main()
 {
 	int n;
-	for (n = 1; n <= 15; n += 2)
+	for (n = 1; n <= 15; n += 2) // this is for loop conditions
 	{
 		cout << "n = " << n << endl;
 	}
 
+	//practice
+	//Calculate the sum from 1 to the input number
 	int N;
 	int tong = 0;
 	cout << "Moi nhap vao so tu nhien N: ";
@@ -19,6 +22,7 @@ int main()
 	}
 	cout << "Tong cac so tu nhien cua ban la: " << tong << endl;
 
+	//Count and calculate the sum of numbers divisible by 3 from 1 to the input number
 	int a;
 	int dem = 0;
 	int tong2 = 0;
@@ -35,14 +39,15 @@ int main()
 		cout << "So so chia het cho 3 la: " << dem << endl;
 		cout << "Tong cac so chia het cho 3 la: " << tong2 << endl;
 
-		int k;
-		int kq;
-		cout << "Moi nhap vao bang cuu chuong muon kiem tra: ";
-		cin >> k;
-		cout << "Day la ket qua cua bang cuu chuong " << k << ": \n";
-		for (int ik = 1; ik <= 9; ik++)
-		{
-			kq = ik * k;
-			cout << k << " x " << ik << " = " << kq << endl;
-		}
+	//Print the multiplication table for the requested number
+	int k;
+	int kq;
+	cout << "Moi nhap vao bang cuu chuong muon kiem tra: ";
+	cin >> k;
+	cout << "Day la ket qua cua bang cuu chuong " << k << ": \n";
+	for (int ik = 1; ik <= 9; ik++)
+	{
+		kq = ik * k;
+		cout << k << " x " << ik << " = " << kq << endl;
+	}
 }
