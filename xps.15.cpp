@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
+//learn about "continue"
 int main()
 {
     int n, m;
@@ -29,6 +30,8 @@ int main()
     cout << " = " << tong << endl;
     //break de qua chac khong can on lai
 
+    // BIG practice
+    //Calculate the factorial of the input number
     int g;
     long long giaithua = 1;
     cout << "Moi nhap vao giai thua muon kiem tra: ";
@@ -45,7 +48,8 @@ int main()
         }
     }
     cout << g << "! = " << giaithua << endl;
-    
+
+    //Calculate the sum of even numbers from 0 to the input number
     int a;
     int tong2 = 0;
     cout << "Moi nhap vao so so tu nhien muon tinh tong: ";
@@ -64,6 +68,7 @@ int main()
     }
     cout << "Tong cac so chan tu 0 den " << a << " la: " << tong2 << endl;
 
+    //Print numbers divisible by 3 from 10 to 50
     cout << "Cac so chia het cho 3 tu 10 den 50 la: ";
     for (int i2 = 10; i2 <= 50; i2++)
     {
@@ -74,6 +79,7 @@ int main()
     }
     cout << endl;
 
+    //Calculate S = 1! + 2! + 3! + ... + 10!
     int S = 1;
     int s = 1;
     cout << "Tong S = 1! + 2! + 3! +...+ 10! = ";
@@ -85,6 +91,7 @@ int main()
     }
     cout << "= " << S << endl;
 
+    //Find all perfect numbers from 1 to 1000
     cout << "Cac so hoan hao trong pham vi 1-1000 la: ";
     for (int sohoanhao = 1; sohoanhao <= 1000; sohoanhao++)
     {
@@ -103,6 +110,7 @@ int main()
     }
     cout << endl;
 
+    //Check whether a positive integer is prime and allow the user to continue checking other numbers or exit the program
     int x, t;
     do
     {
