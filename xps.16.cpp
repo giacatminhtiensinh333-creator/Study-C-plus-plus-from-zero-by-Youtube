@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
+//learning about how to use 'for loop' to draw
 int main()
 {
 	for (int i = 1; i <= 7; i++)
@@ -13,6 +14,7 @@ int main()
 	}
 	cout << endl;
 
+	// draw letter N
 	for (int in = 1; in <= 7; in++)
 	{
 		for (int jn = 1; jn <= 7; jn++)
@@ -30,6 +32,7 @@ int main()
 	}
 	cout << endl;
 
+	//draw square
 	for (int in = 1; in <= 7; in++)
 	{
 		for (int jn = 1; jn <= 7; jn++)
@@ -47,6 +50,7 @@ int main()
 	}
 	cout << endl;
 
+	//write my friend nam (HAi) as a practice
 	for (int hoang = 1; hoang <= 7; hoang++)
 	{
 		for (int hai = 1; hai <= 17; hai++)
