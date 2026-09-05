@@ -50,7 +50,7 @@ int main()
 	}
 	cout << endl;
 
-	//write my friend nam (HAi) as a practice
+	//write my friend name (HAi) as a practice
 	for (int hoang = 1; hoang <= 7; hoang++)
 	{
 		for (int hai = 1; hai <= 17; hai++)
