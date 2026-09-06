@@ -2,14 +2,19 @@
 #include<cmath>
 using namespace std;
 
+//function lesson (non-return function and return function)
+
 int cong(int x, int y);
 void xinchao(string gioitinh);
 
+// practice.1
 void giaipt(double a, double b, double c);
 
+//.2
 double timX1(double a1, double b1, double delta);
 double timX2(double a1, double b1, double delta);
 
+//.3
 int Cong(int m, int n);
 int Tru(int m, int n);
 int Nhan(int m, int n);
@@ -24,6 +29,7 @@ int main()
 	xinchao("nam");
 	xinchao("nu");
 
+	// pracitce.1
 	cout << "Voi a=1, b=2, c=3 thi: ";
 	giaipt(1, 2, 3);
 	cout << "Voi a=1, b=2, c=1 thi: ";
@@ -40,6 +46,7 @@ int main()
 	cin >> z;
 	giaipt(x, y, z);
 
+	//.2
 	double a1, b1, c1;
 	cout << "Moi nhap vao a, b, c: \n";
 	cout << "a= ";
@@ -66,6 +73,7 @@ int main()
 		cout << "vo nghiem";
 	}
 
+	//.3
 	double m, n;
 	char l;
 	cout << "Moi nhap vao 2 so m, n: \n" << "m= ";
@@ -121,6 +129,7 @@ void xinchao(string gioitinh) {
 	}
 }
 
+//practice.1
 void giaipt(double a, double b, double c) {
 	double x1, x2;
 	double delta = b * b - 4.0 * a * c;
@@ -141,7 +150,7 @@ void giaipt(double a, double b, double c) {
 		cout << "x2 = " << x2 << endl;
 	}
 }
-
+//.2
 double timX1(double a1, double b1, double delta) {
 	return (-b1 + sqrt(delta)) / (2.0 * a1);
 }
@@ -149,6 +158,7 @@ double timX2(double a1, double b1, double delta) {
 	return (-b1 - sqrt(delta)) / (2.0 * a1);
 }
 
+//.3
 int Cong(int m, int n) {
 	return m + n;
 }
