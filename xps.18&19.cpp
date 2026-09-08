@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
+// pass by value/pass by reference lesson
 void thamtri(int a) {
     a = 164;
     cout << "a trong ham tham tri la: " << a << endl;
