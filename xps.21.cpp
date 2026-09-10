@@ -1,7 +1,9 @@
 ﻿#include <iostream>
-#include <algorithm>
-#include <random>
+#include <algorithm> //library for sort/reverse
+#include <random> //library for random
 using namespace std;
+
+//one way array lesson
 
 int main()
 {
@@ -44,7 +46,7 @@ int main()
     cout << endl;
 
     //practice
-    //
+    // print array
     int a[4];
     for (int i = 0; i < sizeof(a) / sizeof(a[0]); i++)
     {
@@ -57,7 +59,7 @@ int main()
         cout << a[i] << " ";
     }
     cout << endl;
-    //
+    // Arrange from smallest to largest and reverse
     int a2[7] = { 67, 69, 81, 36, 99, 111, 229 };
     sort(a2, a2 + sizeof(a2) / sizeof(a2[0]));
     cout << "Mang a2 sau sap xep tang dan la: ";
