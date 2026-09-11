@@ -2,6 +2,7 @@
 #include <random>
 using namespace std;
 
+//2 way array lesSON
 int main()
 {
     int mangvd1[3][4];
