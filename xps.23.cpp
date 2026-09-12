@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
+// RAM meomory and consor lesson x 1/2 way array consor
 int main()
 {
     int GtaIV = 2010;
