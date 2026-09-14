@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <cstring>
+#include <cstring> //library to copy, connect and find index position in array
 using namespace std;
 
 int main()
@@ -119,7 +119,7 @@ int main()
 	cout << "Moi nhap chuoi ky tu: ";
 	cin.getline(chuoikytu2, 50);
 	cout << "Chuoi ky tu dao nguoc cua ban la: ";
-	for (int i = strlen(chuoikytu2)-1; i >=0; i--)
+	for (int i = strlen(chuoikytu2)-1; i >=0; i--) //we can't reverse char array like array one/two way so I reverse the for-loop
 	{
 		cout << chuoikytu2[i];
 	}
