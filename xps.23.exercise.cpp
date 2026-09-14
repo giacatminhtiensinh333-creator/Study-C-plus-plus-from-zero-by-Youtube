@@ -1,6 +1,6 @@
 ﻿#include <iostream>
-#include <algorithm>
-#include <random>
+#include <algorithm> //library for sort/reverse array
+#include <random> //library for random
 using namespace std;
 
 //1.change variables' value
