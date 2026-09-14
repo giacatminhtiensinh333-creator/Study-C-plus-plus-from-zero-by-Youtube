@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <random>
+#include <random> //library to use random
 using namespace std;
 
 //2 way array lesSON
