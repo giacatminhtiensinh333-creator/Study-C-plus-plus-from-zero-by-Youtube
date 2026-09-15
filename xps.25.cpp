@@ -1,5 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
+
+//struct lesson
 struct Diachi
 {
     char sonha[25];
@@ -60,7 +62,7 @@ int main()
     cout << "Que quan: " << cd1.Quequan.sonha << cd1.Quequan.tenduong << cd1.Quequan.quan << cd1.Quequan.thanhpho << "\n \n";
 
     cout << "Moi ban nhap vao ten sach: ";
-    gets_s(quyen1.tensach);
+    gets_s(quyen1.tensach); //enter information from keyboard to struct
     cout << "Moi ban nhap vao ten tac gia: ";
     gets_s(quyen1.tacgia);
     cout << "Moi ban nhap vao gia sach: ";
@@ -77,12 +79,12 @@ int main()
 
     const int total = 4;
     Sinhvien dsHB[total];
-    nhapdulieu(dsHB, total);
+    nhapdulieu(dsHB, total); //void function
     cout << "Danh sach hoc sinh nhan hoc bong la: \n";
     xuatdulieu(dsHB, total);
     cout << "\n";
 
-    Sinhvien* psv2;
+    Sinhvien* psv2; // struct pointer (consor)
     psv2 = new Sinhvien;
     sv1 = { 2508,"Nguyen Nam Khanh" };
     *psv2 = { 2209,"Vu Binh Minh" };
@@ -94,4 +96,5 @@ int main()
     *psv1 = { 2309,"Linh tien te" };
     cout << "Thong tin psv1 sau doi la: " << psv1->tensv << ", ma: " << psv1->masv << "\n";
     cout << "Thong tin sv1 sau doi la: " << sv1.tensv << ", ma: " << sv1.masv << "\n";
+    // exercise will be uploaded in September 16th
 }
