@@ -77,6 +77,5 @@ int main()
         delete* (array2wayconsor + i);
     }
     delete array2wayconsor;
-
-
+    //exercise wil be uploaded in September 13th
 }
